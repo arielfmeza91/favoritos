@@ -1,0 +1,7 @@
+crea un complemento para nvda, llamado favoritos
+te permite añadir citios, carpetas y accesos a programas o archivos a favoritos
+que el complemento cree un sub menú en nvda, que diga favoritos submenú
+
+cuando entremos en ese submenú, que esté para añadir  al darle añadir que pregunte que añadiremos si un link, ruta, o acceso a archivo o programa
+
+a parte de añadir que estén otros submenús con las categorías dichas anteriormente.
