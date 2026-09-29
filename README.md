@@ -18,6 +18,12 @@ para instalarlo.
   categoría, edita el nombre/ruta de un elemento guardado o elimínalo.
 - **Herramientas → Favoritos → Enlaces / Carpetas / Accesos a archivos o
   programas**: abre cualquiera de tus elementos guardados.
+- **Herramientas → Favoritos → Más usados**: los 10 favoritos que más abres,
+  de cualquier categoría.
+- **NVDA+Mayús+F** (desde un navegador): añade la página actual a favoritos,
+  con título y URL ya rellenados.
+- Cada enlace puede abrirse con un navegador concreto (campo **Abrir con**) o
+  con el predeterminado.
 
 Los favoritos se guardan en `favoritos.json`, dentro de la carpeta de
 configuración de tu perfil de NVDA.
@@ -31,7 +37,7 @@ archivo `.nvda-addon` a partir de él:
 python -c "
 import zipfile, os
 base = 'addon-source'
-out = 'favoritos-1.0.0.nvda-addon'
+out = 'favoritos-1.1.0.nvda-addon'
 files = [
     ('manifest.ini', 'manifest.ini'),
     (os.path.join('globalPlugins','favoritos','__init__.py'), os.path.join('globalPlugins','favoritos','__init__.py')),
