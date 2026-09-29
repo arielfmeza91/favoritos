@@ -37,7 +37,7 @@ archivo `.nvda-addon` a partir de él:
 python -c "
 import zipfile, os
 base = 'addon-source'
-out = 'favoritos-1.1.0.nvda-addon'
+out = 'favoritos-1.1.1.nvda-addon'
 files = [
     ('manifest.ini', 'manifest.ini'),
     (os.path.join('globalPlugins','favoritos','__init__.py'), os.path.join('globalPlugins','favoritos','__init__.py')),
